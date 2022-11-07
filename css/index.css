@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(12, 5, 34);
+    color: snow;
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+}
+
+.livro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: rgb(18, 8, 51);
+    padding: 40px 30px 30px 30px;
+    margin-right: 150px;
+}
+
+.star1{
+    width: 120px;
+    opacity: 0.7;
+}
+
+.preco {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.star2 {
+    width: 120px;
+    margin-left: -20px;
+    position: absolute;
+}
+
+.link {
+    font-size: larger;
+}
+.link a{
+    text-decoration: none;
+}
+.link hover {
+    text-decoration: underline;
+    color: #20c997;
+}
+
+.release {
+    font-size: larger;
+    text-align: center;
+    color: snow;
+    background-color: #af0a1a;
+    border-radius: 25px;
+    width: 100%;
+}
